@@ -11,8 +11,8 @@ AWS IAM Permissions: Ensure that your AWS user has permissions to create the req
   (only needed if you haven't the terraform files)
 
 Before applying any Terraform changes, you need to initialize the working directory. This will download the required provider plugins (e.g., AWS).
-
-    ``` terraform init ```
+Run:
+    terraform init
 
 # 2. Proof File Path of ressources
 You may need to change the file paths of the resources in the S3 Buckets (File: s3Frontend.tf, s3Backend.tf). By default the paths are set on "C:/CloudProgramming/Webseite/..." (this are example resources). 
@@ -21,18 +21,18 @@ In case you need a diffferent path you need to change them.
 # 3 Plan the Infrastructure
 
 Before applying the changes, you can run terraform plan to preview the infrastructure changes. This will show you what resources will be created, updated, or deleted without making any actual changes.
-
-    ``` terraform plan ```
+Run:
+   terraform plan
 
 # 4 Apply the Infrastructure
 
 To create the resources defined in the Terraform configuration, run the following command:
-
-    ``` terraform apply  ```
+Run:
+   terraform apply
 
 # 5 Destroy the Infrastructure
 
 If you want to delete the resources created by Terraform, you can use the terraform destroy command. This will remove all resources managed by Terraform.
-
-    ``` terraform destroy ```
+Run:
+    terraform destroy
 
