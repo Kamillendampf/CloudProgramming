@@ -6,7 +6,8 @@ Before deploying the infrastructure, ensure that the following prerequisites are
         
 AWS CLI is installed and configured with valid credentials.
 You can install the AWS CLI by following the instructions here.
-Run ``` aws configure ``` to set up your credentials and default region.
+Run    aws configure 
+to set up your credentials and default region.
 AWS IAM Permissions: Ensure that your AWS user has permissions to create the required resources (S3, IAM, etc.). This should include permissions for s3:PutBucketPolicy, s3:CreateBucket, and others depending on the resources in the configuration.
     
   # 1. Initialize Terraform 
@@ -14,6 +15,7 @@ AWS IAM Permissions: Ensure that your AWS user has permissions to create the req
 
 
 Before applying any Terraform changes, you need to initialize the working directory. This will download the required provider plugins (e.g., AWS).
+
 Run:
 
     terraform init
