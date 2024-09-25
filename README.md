@@ -22,13 +22,13 @@ In case you need a diffferent path you need to change them.
 
 Before applying the changes, you can run terraform plan to preview the infrastructure changes. This will show you what resources will be created, updated, or deleted without making any actual changes.
 Run:
-   terraform plan
+    terraform plan
 
 # 4 Apply the Infrastructure
 
 To create the resources defined in the Terraform configuration, run the following command:
 Run:
-   terraform apply
+    terraform apply
 
 # 5 Destroy the Infrastructure
 
