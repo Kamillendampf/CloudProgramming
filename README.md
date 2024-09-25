@@ -1,5 +1,5 @@
 # Prerequisites
-Before deploying the infrastructure, ensure that the following prerequisites are met:
+Before deploying the infrastructure, ensure that the following prerequisites are met
 
     Terraform is installed on your local machine.
         You can download and install Terraform from the (official website)[https://developer.hashicorp.com/terraform/install?product_intent=terraform].
@@ -23,15 +23,15 @@ In case you need a diffferent path you need to change them.
 # 3 Plan the Infrastructure
 
 Before applying the changes, you can run terraform plan to preview the infrastructure changes. This will show you what resources will be created, updated, or deleted without making any actual changes.
-``` terraform plan ```
+: terraform plan 
 
 # 4 Apply the Infrastructure
 
 To create the resources defined in the Terraform configuration, run the following command:
 
-``` terraform apply ```
+: terraform apply 
 # 5 Destroy the Infrastructure
 
 If you want to delete the resources created by Terraform, you can use the terraform destroy command. This will remove all resources managed by Terraform.
 
-``` terraform destroy ```
+: terraform destroy 
