@@ -19,7 +19,7 @@ AWS IAM Permissions: Ensure that your AWS user has permissions to create the req
 
 Before applying any Terraform changes, you need to initialize the working directory. This will download the required provider plugins (e.g., AWS).
 
-Run:
+Run the following commmand:
 
     terraform init
 
@@ -31,7 +31,7 @@ In case you need a diffferent path you need to change them.
 
 Before applying the changes, you can run terraform plan to preview the infrastructure changes. This will show you what resources will be created, updated, or deleted without making any actual changes.
 
-Run:
+Run the following commmand:
 
     terraform plan
 
@@ -39,15 +39,13 @@ Run:
 
 To create the resources defined in the Terraform configuration, run the following command:
 
-Run:
-
     terraform apply
 
 # 5 Destroy the Infrastructure
 
 If you want to delete the resources created by Terraform, you can use the terraform destroy command. This will remove all resources managed by Terraform.
 
-Run:
+Run the following commmand:
 
     terraform destroy
 
