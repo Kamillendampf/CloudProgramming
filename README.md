@@ -1,7 +1,7 @@
 # Prerequisites
 Before deploying the infrastructure, ensure that the following prerequisites are met
     Terraform is installed on your local machine.
-        You can download and install Terraform from the (official website)[https://developer.hashicorp.com/terraform/install?product_intent=terraform].
+        You can download and install Terraform from the [official website](https://developer.hashicorp.com/terraform/install?product_intent=terraform).
 
     AWS CLI is installed and configured with valid credentials.
         You can install the AWS CLI by following the instructions here.
